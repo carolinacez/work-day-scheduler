@@ -13,13 +13,15 @@ function saveTask() {
     localStorage.setItem(timeSlot, textArea);
 };
 saveTask();
-
-
-$("#slot-nine").val(localStorage.setItem("slot-nine"));
-
-
-
 displayTime();
+
+
+//$("#slot-nine").val(localStorage.setItem("slot-nine"));
+
+
+
+
+
 
 // var t = new Date().getHours();
 // function updateBackgroundSlot() {
