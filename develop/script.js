@@ -15,15 +15,8 @@ function saveTask() {
 saveTask();
 
 
-$("#slot-nine .description").val(localStorage.getItem("slot-nine"));
-$("#slot-ten .description").val(localStorage.getItem("slot-ten"));
-$("#slot-eleven .description").val(localStorage.getItem("slot-eleven"));
-$("#slot-twelve .description").val(localStorage.getItem("slot-twelve"));
-$("#slot-one .description").val(localStorage.getItem("slot-one"));
-$("#slot-two .description").val(localStorage.getItem("slot-two"));
-$("#slot-three .description").val(localStorage.getItem("slot-three"));
-$("#slot-four .description").val(localStorage.getItem("slot-four"));
-$("#slot-five .description").val(localStorage.getItem("slot-five"));
+$("#slot-nine").val(localStorage.setItem("slot-nine"));
+
 
 
 displayTime();
